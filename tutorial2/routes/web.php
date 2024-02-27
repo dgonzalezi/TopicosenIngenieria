@@ -19,7 +19,7 @@ Route::get('/about', function () {
     $data1 = 'About us - Online Store';
     $data2 = 'About us';
     $description = 'This is an about page ...';
-    $author = 'Developed by: María José González';
+    $author = 'Developed by: David González';
 
     return view('home.about')
         ->with('title', $data1)
